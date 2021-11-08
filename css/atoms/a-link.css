@@ -1,5 +1,6 @@
 .a-link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .a-link--cta {
@@ -16,8 +17,30 @@
   font-size: var(--fs-m);
 }
 
+.a-link--block {
+  display: block;
+}
+
+.a-link--block + .a-link--block {
+  margin-top: 16px;
+}
+
+.a-link--block,
+.a-link--inline,
 .a-link--header {
   color: var(--accent-text-color);
+}
+
+.a-link--inline {
+  display: inline-block;
+  padding-left: 7px;
+  text-decoration: underline;
+}
+
+
+.a-link--block:hover,
+.a-link--inline:hover {
+  text-decoration: none;
 }
 
 @media (min-width: 820px) {
