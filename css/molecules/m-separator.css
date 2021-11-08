@@ -1,0 +1,52 @@
+.m-separator {
+  position: relative;
+  padding: 220px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.m-separator__text {
+  position: absolute;
+  top: 20%;
+  padding: 24px;
+}
+
+.m-separator__text--title {
+  font-size: var(--fs-xl-m);
+  margin: 0;
+}
+
+.m-separator__text--right {
+  transform: rotate(-7deg);
+  right: 64px;
+}
+
+.m-separator__text--left {
+  transform: rotate(7deg);
+  left: 64px;
+}
+
+.m-separator:before {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+  left: 50%;
+  content: "................................";
+  letter-spacing: 6px;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: 3px;
+  padding-left: 10px;
+  z-index: -1px;
+}
+
+@media (min-width: 820px) {
+  .m-separator__text {
+    width: 40%;
+  }
+
+  .m-separator__text--title {
+    font-size: var(--fs-xxl-m);
+  }
+}

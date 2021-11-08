@@ -1,2 +1,2 @@
-# goteo
-Personal project sharing tips about how save water in our homes
+# home-is-wherever-im-with-you
+Our house

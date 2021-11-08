@@ -1,0 +1,12 @@
+.m-head {
+  position: relative;
+  padding: 0 16px;
+  text-align: center;
+}
+
+@media (min-width: 820px) {
+  .m-head {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}

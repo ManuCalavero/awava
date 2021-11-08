@@ -1,0 +1,26 @@
+.o-footer {
+	position: relative;
+	margin-top: 120px;
+}
+
+.o-footer__wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.o-footer--footnote {
+	padding: 32px 24px;
+	border-top: 1px solid rgba(0, 0 ,0, 0.1);
+	font-size: 14px;
+	text-align: center;
+	opacity: 0.8;
+}
+
+@media (min-width: 820px) {
+	.o-footer {
+		margin-top: 220px;
+	}
+
+	.o-footer__wrapper {
+	}
+}

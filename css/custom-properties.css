@@ -1,0 +1,74 @@
+/* ===================================================
+FONTS AND VARIABLES
+=====================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@font-face {
+  font-family: 'IBM-PLEX-Regular';
+  src: 
+         url('../fonts/IBM/IBMPlexSansCond-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBM/IBMPlexSansCond-Regular.woff') format('woff'),
+         url('../fonts/IBM/IBMPlexSansCond-Regular.ttf') format('truetype'),
+         url('../fonts/IBM/IBMPlexSansCond-Regular.svg#icomoonregular') format('svg');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'IBM-PLEX-Bold';
+  src:
+         url('../fonts/IBM/IBMPlexSansCond-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBM/IBMPlexSansCond-Bold.woff') format('woff'),
+         url('../fonts/IBM/IBMPlexSansCond-Bold.ttf') format('truetype'),
+         url('../fonts/IBM/IBMPlexSansCond-Bold.svg#icomoonregular') format('svg');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Fira-Regular';
+  src: url('../fonts/fira/FiraSans-Regular.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Fira-Medium';
+  src: url('../fonts/Fira/FiraSans-Medium.ttf') format('truetype');
+  font-weight: bold;
+}
+
+:root {
+  /*FONTS*/
+  --title-regular:     IBM-PLEX-Regular;
+  --title-bold:        IBM-PLEX-Bold;
+  --text-regular:      Fira-Regular;
+  --text-bold:         Fira-Medium;
+  --script-font:       Caveat;
+
+  
+  /*COLORS*/
+  --bg-color:           #e5f3fb;
+  --nuclear-color:      #fff;
+  --text-color:         #4d4116;
+  --accent-text-color:  #338890;
+  --ambar-color:        #f17842;
+  --error-color:        #e9323a;
+  
+
+  /*SIZEZ*/
+
+  --fs-s-m:           14px;
+  --fs-s-l:           16px;
+  --fs-m-s:           21px;
+  --fs-m:             24px;
+  --fs-m-l:           32px;
+  --fs-l-s:           40px;
+  --fs-l:             48px;
+  --fs-l-l:           56px;
+  --fs-xl-s:          64px;
+  --fs-xl-l:          72px;
+  --fs-xl-xl:         80px;
+  --fs-xxl-s:         88px;
+  --fs-xxl-m:         120px;
+  --fs-xxl-xl:        160px;
+  
+}

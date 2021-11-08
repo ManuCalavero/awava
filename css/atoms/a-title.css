@@ -1,0 +1,17 @@
+.a-title {
+	font-family: var(--title-bold);
+}
+
+.a-title--xxl {
+	margin: 24px 0;
+	font-size: var(--fs-l);
+	line-height: 47px;
+}
+
+@media (min-width: 820px) {	
+	.a-title--xxl {
+		margin: 0 0 24px;
+		font-size: var(--fs-xxl-xl);
+		line-height: var(--fs-xxl-l);
+	}
+}

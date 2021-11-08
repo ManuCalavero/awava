@@ -1,0 +1,20 @@
+.o-main {
+  position: relative;
+}
+
+.o-main__wrapper {
+  position: relative;
+  padding: 0 16px;
+}
+
+@media (min-width: 820px) {
+  .o-main__wrapper {
+    max-width: 1440px;
+    margin: 180px auto 0;
+  }
+
+  .o-main__wrapper .-text {
+    max-width: 941px;
+    margin: 0 auto 48px;
+  }
+}

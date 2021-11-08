@@ -1,0 +1,39 @@
+.a-link {
+  text-decoration: none;
+}
+
+.a-link--cta {
+  display: block;
+  max-width: 420px;
+  margin: 16px auto;
+  padding: 24px 32px;
+  border-radius: 5px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, var(--ambar-color) 0%, var(--error-color) 100%);
+  color: var(--nuclear-color);
+  text-align: center;
+  font-family: var(--text-bold);
+  font-size: var(--fs-m);
+}
+
+.a-link--header {
+  color: var(--accent-text-color);
+}
+
+@media (min-width: 820px) {
+  .a-link--cta {
+    transition: transform 200ms ease-in-out;
+  }
+
+  .a-link--cta:hover {
+    transform: scale(1.1);
+  }
+
+  .a-link--header {
+    transition: opacity 200ms ease-in-out;
+  }
+
+  .a-link--header:hover {
+    opacity: 0.5;
+  }
+}

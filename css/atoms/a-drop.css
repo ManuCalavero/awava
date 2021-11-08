@@ -1,0 +1,40 @@
+.a-drop-wrapper {
+  position: relative;
+}
+
+.a-drop {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.a-drop--right {
+  left: auto;
+  right: 0;
+}
+
+.a-drop--left {
+  left: -110px;
+  right: auto;
+}
+
+
+.a-drop--xl {
+  right: 32px;
+  left: auto;
+  width: 330px;
+  height: auto;
+}
+
+.a-drop--m {
+  width: 180px;
+  height: auto;
+  opacity: 0.6;
+}
+
+.a-drop--s {
+  width: 100px;
+  height: auto;
+  opacity: 0.4;
+}

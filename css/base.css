@@ -1,0 +1,66 @@
+/* ===================================================
+STYLES FOR ROOT ELEMENTs
+=====================================================*/
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+  background-image: url("../images/img-bg.png");
+  background-attachment: fixed;
+  color: var(--text-color);
+  font-family: var(--text-regular);
+  font-size: 18px;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* SCOPE CLASSES */
+
+.-text {
+  font-size: var(--fs-m);
+  line-height: 32px;
+  font-family: var(--text-regular);
+}
+
+.-small-text {
+  width: 320px;
+  margin: 0 auto;
+  font-size: var(--fs-s-m);
+  line-height: var(--fs-s-m);
+  font-family: var(--text-regular);
+}
+
+.-bold {
+  font-family: var(--text-bold);
+}
+
+.-aternative-text {
+  font-family: var(--script-font);
+  font-size: var(--fs-m-l);
+  color: var(--accent-text-color);
+}
+
+.-uppercase {
+  text-transform: uppercase;
+}
+
+.-icon {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.-centered {
+  text-align: center;
+}
+
