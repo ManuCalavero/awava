@@ -7,6 +7,7 @@
   border-radius: 30px;
   background-color: var(--nuclear-color);
   box-shadow: 0 0 60px #B4CBDB;
+  text-align: center;
 }
 
 .m-area__list-item {
@@ -36,6 +37,7 @@
 
 .m-area__list-item--icon {
   min-width: 120px;
+  margin-bottom: 32px;
 }
 
 .m-area--title {
@@ -58,6 +60,7 @@
 
   .m-area__list {
     padding: 56px;
+    text-align: left;
   }
 
   .m-area__list-item {
