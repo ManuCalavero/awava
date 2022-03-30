@@ -23,8 +23,9 @@
 .a-drop--xl {
   right: 32px;
   left: auto;
-  width: 330px;
+  width: 220px;
   height: auto;
+  margin-top: 132px;
 }
 
 .a-drop--m {
@@ -37,4 +38,19 @@
   width: 100px;
   height: auto;
   opacity: 0.4;
+}
+
+@media (min-width: 820px) {
+  .a-drop--xl {
+    right: 82px;
+    width: 320px;
+    margin-top: 32px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .a-drop--xl {
+    width: 330px;
+    margin-top: 182px;
+  }
 }

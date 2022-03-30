@@ -25,8 +25,11 @@
   margin-top: 16px;
 }
 
+.a-link--inline {
+  color: var(--ambar-color);
+}
+
 .a-link--block,
-.a-link--inline,
 .a-link--header {
   color: var(--accent-text-color);
 }

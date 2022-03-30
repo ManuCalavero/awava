@@ -24,30 +24,33 @@
     <header class="o-header">
 
       <nav class="o-header__inner">
-        <h1 class="o-header__logo">
+        <h1 id="trigger" class="o-header__logo btn btn__trigger btn__trigger--views">
           <img class="o-header__logo--logo" src="images/img-logo.png">
         </h1>
-        <ol class="o-header__nav-list">
-          <li class="o-header__nav-list--item">
-            <a class="a-link--header a-link -uppercase js-what-we-do-trigger" href="#">Baño</a>
-          </li>
-          <li class="o-header__nav-list--item">
-            <a class="a-link--header a-link -uppercase js-why-trigger" href="#">Cocina</a>
-          </li>
-          <li class="o-header__nav-list--item">
-            <a class="a-link--header a-link -uppercase js-contact-trigger" href="#">Dieta</a>
-          </li>
-          <li class="o-header__nav-list--item">
-            <a class="a-link--header a-link -uppercase js-contact-trigger" href="#">Exterior</a>
-          </li>
-          <li class="o-header__nav-list--item">
-            <a class="a-link--header a-link -uppercase js-contact-trigger" href="#">General</a>
-          </li>
-          <li class="o-header__nav-list--item">
-            <a class="a-link--header a-link -uppercase js-contact-trigger" href="#">Manda tu truco</a>
-          </li>
+        <ol class="o-header__nav-list custom-list custom-list--list">
+          <div id="#wrapper-templates">
+            <li class="o-header__nav-list--item">
+              <a class="a-link--header a-link custom-list__link custom-list__link--template -uppercase js-what-we-do-trigger" href="#wc">Baño</a>
+            </li>
+            <li class="o-header__nav-list--item">
+              <a class="a-link--header a-link custom-list__link custom-list__link--template -uppercase js-why-trigger" href="#kitchen">Cocina</a>
+            </li>
+            <li class="o-header__nav-list--item">
+              <a class="a-link--header a-link custom-list__link custom-list__link--template -uppercase js-contact-trigger" href="#diet">Dieta</a>
+            </li>
+            <li class="o-header__nav-list--item">
+              <a class="a-link--header a-link custom-list__link custom-list__link--template -uppercase js-contact-trigger" href="#exterior">Exterior</a>
+            </li>
+            <li class="o-header__nav-list--item">
+              <a class="a-link--header a-link custom-list__link custom-list__link--template -uppercase js-contact-trigger" href="#common">General</a>
+            </li>
+            <li class="o-header__nav-list--item">
+              <a class="a-link--header a-link custom-list__link custom-list__link--template -uppercase js-contact-trigger" href="#contact">Manda tu truco</a>
+            </li>
+          </div>
         </ol>
       </nav>
+
     </header>
     <!--MAIN CONTAINER-->
     <main class="o-main">
@@ -56,14 +59,14 @@
         <!--SPLASH-->
         <div class="m-head">
           <h2 class="a-title a-title--xxl -uppercase">No cierres el grifo. Úsalo mejor!</h2>
-          <p class="-text">Compartimos algunos de los trucos que usamos en casa para ahorrar agua y aportar nuestro granito en la lucha contra el desperdicio.</p>
+          <p class="-text">Trucos útiles para hacerte más fácil la lucha contra el derroche y ahorrar más agua en casa.</p>
           <a href="#" class="a-link a-link--cta">¿Tiene algún truco? ¡Envíanoslo!</a>
           <img class="a-drop a-drop--xl" src="images/img-drop.png">
         </div>
         <!--SEPARATOR-->
         <div class="m-separator">
           <div class="m-separator__text m-separator__text--right">
-            <p class=" m-separator__text--title -aternative-text">2l/día.</p>
+            <p class=" m-separator__text--title -aternative-text">2 litros al día.</p>
             <p class=" -aternative-text">Con poco esfuerzo ahorrarás la misma cantidad de agua que necesita una persona para vivir.</p>
           </div>
         </div>
@@ -71,7 +74,7 @@
           <img class="a-drop a-drop--m a-drop--right" src="images/img-drop.png">
         </div>
         <!--WC-->
-        <div class="m-area">
+        <div id="wc" class="m-area">
           <h2 class="m-area--title">Truquis en el baño</h2>
           <ul class="m-area__list">
             <li class="m-area__list-item">
@@ -89,7 +92,7 @@
                 <p class="m-area__list-item--title">Ducha.</p>
                 <p class="m-area__list-item--description">· Acorta lo que puedas. En 5 minutos se pueden perder entre <span class="-bold">95-150l</span> de agua potable.</p>
                 <p class="m-area__list-item--description">· Llenar la bañera pueden ser 200L, <span class="-bold">el agua diaria de 150 personas</span>.</p>
-                <p class="m-area__list-item--description">· Recuerda cerrar el grifo mientras te depilas.</p>
+                <p class="m-area__list-item--description">· Recuerda cerrar el grifo mientras te depilas o afeitas.</p>
                 <p class="m-area__list-item--description"><span class="-bold">Trucos:</span> ducha del marine: 1min mojarse, 1 min enjabonado, 1min aclarado. También puedes usar aparatos como Waterpeble, un grifo termostácico (desde 30€) o cabezal eficiente.</p>
                 <p class="m-area__list-item--description -bold">Aprovehca para guardar el agua que mientras se atempera el agua.</p>
               </div>
@@ -98,9 +101,9 @@
               <div class="m-area__list-item--icon"><img class="a-tip-icon" src="images/icons/ic-wc.svg"></div>
               <div class="m-area__list-item--tip">
                 <p class="m-area__list-item--title -uppercase">El inodoro</p>
-                <p class="m-area__list-item--description">· No lo utilices como papelera. Cada descarga emplea de 3 a 6 litros d eagua potable.</p>
-                <p class="m-area__list-item--description"><span class="-bold">Trucos:</span> mientras se sigue investigando los inodoros sin agua, lo mejore es usar uno con botón interrumible, meter una botella con arena o peso en el depósito para que quitar capacidad de llenado y lo mejor, poner una papelera al lado.</p>
-                <p class="m-area__list-item--description"><span class="-bold">Puedes ahorrar hasta 4000l al año sólo usándolo bien.</span>.</p>
+                <p class="m-area__list-item--description">· No lo utilices como papelera. Cada descarga emplea de 3 a 6 litros de agua potable.</p>
+                <p class="m-area__list-item--description"><span class="-bold">Trucos:</span> mientras se sigue investigando los inodoros sin agua, lo mejore es usar uno con botón interrumpible, meter una botella con arena o peso en el depósito para quitar capacidad de llenado y lo mejor, poner una papelera al lado.</p>  
+                <p class="m-area__list-item--description"><span class="-bold">Puedes ahorrar hasta 4000l al año sólo usándolo bien</span>.</p>
               </div>
             </li>
             <li class="m-area__list-item">
@@ -121,12 +124,12 @@
         <!--SEPARATOR-->
         <div class="m-separator">
           <div class="m-separator__text m-separator__text--left">
-            <p class=" m-separator__text--title -aternative-text">-50%.</p>
-            <p class=" -aternative-text">·Usar un aireador en el grifo puede ahorrar hasta la mitad del consumo.</p>
+            <p class=" m-separator__text--title -aternative-text">-50%</p>
+            <p class=" -aternative-text">Usar un aireador en el grifo puede ahorrar hasta la mitad del consumo.</p>
           </div>
         </div>
         <!--KITCHEN-->
-        <div class="m-area">
+        <div id="kitchen" class="m-area">
           <h2 class="m-area--title">Truquis en la cocina</h2>
           <ul class="m-area__list">
             <div class="a-drop-wrapper">
@@ -152,8 +155,8 @@
               <div class="m-area__list-item--icon"><img class="a-tip-icon" src="images/icons/ic-machine.svg"></div>
               <div class="m-area__list-item--tip">
                 <p class="m-area__list-item--title -uppercase">La lavadora</p>
-                <p class="m-area__list-item--description">· Lo mismo, nunca a media carga.</p>
-                <p class="m-area__list-item--description">· Usa los programas ECO siempre que puedas.</p>
+                <p class="m-area__list-item--description">· Lo mismo que el lavavajillas, nunca a media carga.</p>
+                <p class="m-area__list-item--description">· Usa los programas ECO siempre que puedas. Aunque oarezca que gastan más energía por que están más tiempo, la usa de forma más eficiente.</p>
               </div>
             </li>
           </ul>
@@ -168,7 +171,7 @@
         </div>
         
         <!--DIET-->
-        <div class="m-area">
+        <div id="diet" class="m-area">
           <h2 class="m-area--title">Truquis en la dieta</h2>
           <ul class="m-area__list"> 
             <li class="m-area__list-item">
@@ -206,7 +209,7 @@
           </div>
         </div>
         <!--EXT-->
-        <div class="m-area">
+        <div id="exterior" class="m-area">
           <h2 class="m-area--title">Truquis en para el exterior</h2>
           <ul class="m-area__list">
             <li class="m-area__list-item">
@@ -237,7 +240,7 @@
         </div>
         <!--GENERAL-->
         
-        <div class="m-area">
+        <div id="common" class="m-area">
           <h2 class="m-area--title">Truquis en general</h2>
           <ul class="m-area__list">
             <img class="a-drop a-drop--m a-drop--right" src="images/img-drop.png">
@@ -279,8 +282,8 @@
           <div class="m-separator__text">
           </div>
         </div>
-        <!--GENERAL-->
-        <div class="a-drop-wrapper">
+        <!--SEND-->
+        <div id="contact" class="a-drop-wrapper">
           <img class="a-drop a-drop--s a-drop--right" src="images/img-drop.png">
         </div>
         <div class="m-area">

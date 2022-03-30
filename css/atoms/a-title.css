@@ -10,7 +10,14 @@
 
 @media (min-width: 820px) {	
 	.a-title--xxl {
-		margin: 0 0 24px;
+		margin: 0 64px 24px;
+		font-size: var(--fs-xxl-m);
+		line-height: var(--fs-xxl-m);
+	}
+}
+
+@media (min-width: 1400px) {	
+	.a-title--xxl {
 		font-size: var(--fs-xxl-xl);
 		line-height: var(--fs-xxl-l);
 	}

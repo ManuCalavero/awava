@@ -12,18 +12,16 @@
 }
 
 .m-separator__text--title {
-  font-size: var(--fs-xl-m);
+  font-size: var(--fs-xl-s);
   margin: 0;
 }
 
 .m-separator__text--right {
   transform: rotate(-7deg);
-  right: 64px;
 }
 
 .m-separator__text--left {
   transform: rotate(7deg);
-  left: 64px;
 }
 
 .m-separator:before {
@@ -49,4 +47,12 @@
   .m-separator__text--title {
     font-size: var(--fs-xxl-m);
   }
+
+  .m-separator__text--right {
+    right: 64px;
+  }
+  
+  .m-separator__text--left {
+    left: 64px;
+  }  
 }
