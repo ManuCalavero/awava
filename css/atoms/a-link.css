@@ -13,7 +13,7 @@
   background: linear-gradient(90deg, var(--ambar-color) 0%, var(--error-color) 100%);
   color: var(--nuclear-color);
   text-align: center;
-  font-family: var(--text-bold);
+  font-family: var(--font-bold);
   font-size: var(--fs-m);
 }
 

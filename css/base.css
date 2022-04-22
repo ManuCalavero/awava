@@ -42,7 +42,7 @@ body {
 }
 
 .-bold {
-  font-family: var(--text-bold);
+  font-family: var(--font-bold);
 }
 
 .-aternative-text {
