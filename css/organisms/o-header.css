@@ -1,7 +1,7 @@
 .o-header {
   position: fixed;
   top: 8px;
-  right: 4px;
+  right: 8px;
   left: 0;
   z-index: 11;
 }
@@ -18,8 +18,8 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  width: 56px;
-  height: 56px;
+  width: 46px;
+  height: 46px;
   margin: 0;
   padding: 16px;
   z-index: 10;
@@ -31,7 +31,7 @@
 
 .o-header__logo--logo {
   transition: opacity 200ms ease-in-out;
-  width: 40px;
+  width: 35px;
   margin: 0 auto;
   opacity: 0.85;
 }
