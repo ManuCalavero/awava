@@ -5,10 +5,14 @@
   overflow: hidden;
 }
 
+.m-separator--short {
+  padding: 90px 0;
+}
+
 .m-separator__text {
   position: absolute;
   top: 20%;
-  padding: 24px;
+  padding: 0 24px;
 }
 
 .m-separator__text--title {

@@ -1,4 +1,10 @@
 .a-tip-icon {
-  width: 48px;
+  display: inline-block;
+  width: 32px;
+  width: 40px;
   height: auto;
+  padding: 32px;
+  border-radius: 35px;
+  background: rgb(2,0,36);
+  background: linear-gradient(-45deg, #D1FFEB 0%, #6DEEB7 100%);
 }
