@@ -48,7 +48,6 @@ body {
 .-aternative-text {
   font-family: var(--script-font);
   font-size: var(--fs-m-l);
-  color: var(--accent-text-color);
 }
 
 .-uppercase {

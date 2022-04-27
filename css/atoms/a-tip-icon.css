@@ -1,10 +1,31 @@
 .a-tip-icon {
   display: inline-block;
-  width: 32px;
   width: 40px;
-  height: auto;
+  height: 40px;
   padding: 32px;
   border-radius: 35px;
   background: rgb(2,0,36);
+  color: red;
   background: linear-gradient(-45deg, #D1FFEB 0%, #6DEEB7 100%);
 }
+
+
+.a-tip-icon--violet {
+  background: linear-gradient(-120deg, #BDBCFF 0%, #BF9CDA 100%);
+}
+
+.a-tip-icon--sand {
+  background: linear-gradient(-120deg, #FFD3CB 0%, #FC9F78 100%);
+}
+
+.a-tip-icon--green {
+  background: linear-gradient(-120deg, #D7F3CD 0%, #8BE37D 100%);
+}
+
+.a-tip-icon--marine {
+  background: linear-gradient(-120deg, #CDE5F3 0%, #33C2FF 100%);
+}
+
+
+
+
