@@ -7,20 +7,20 @@ FONTS AND VARIABLES
 @font-face {
   font-family: 'IBM-PLEX-Regular';
   src: 
-         url('../fonts/IBM/IBMPlexSansCond-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/IBM/IBMPlexSansCond-Regular.woff') format('woff'),
-         url('../fonts/IBM/IBMPlexSansCond-Regular.ttf') format('truetype'),
-         url('../fonts/IBM/IBMPlexSansCond-Regular.svg#icomoonregular') format('svg');
+         url('../fonts/IBM/IBMPlexSansCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBM/IBMPlexSansCondensed-Regular.woff') format('woff'),
+         url('../fonts/IBM/IBMPlexSansCondensed-Regular.ttf') format('truetype'),
+         url('../fonts/IBM/IBMPlexSansCondensed-Regular.svg#icomoonregular') format('svg');
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'IBM-PLEX-Bold';
   src:
-         url('../fonts/IBM/IBMPlexSansCond-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/IBM/IBMPlexSansCond-Bold.woff') format('woff'),
-         url('../fonts/IBM/IBMPlexSansCond-Bold.ttf') format('truetype'),
-         url('../fonts/IBM/IBMPlexSansCond-Bold.svg#icomoonregular') format('svg');
+         url('../fonts/IBM/IBMPlexSansCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBM/IBMPlexSansCondensed-Bold.woff') format('woff'),
+         url('../fonts/IBM/IBMPlexSansCondensed-Bold.ttf') format('truetype'),
+         url('../fonts/IBM/IBMPlexSansCondensed-Bold.svg#icomoonregular') format('svg');
   font-weight: bold;
 }
 
@@ -39,7 +39,7 @@ FONTS AND VARIABLES
 :root {
   /*FONTS*/
   --title-regular:     IBM-PLEX-Regular;
-  --title-bold:        IBM-PLEX-Bold;
+  --font-bold:         IBM-PLEX-Bold;
   --text-regular:      Fira-Regular;
   --text-bold:         Fira-Medium;
   --script-font:       Caveat;
