@@ -26,20 +26,15 @@
 }
 
 .a-link--inline {
-  color: var(--ambar-color);
+  color: #333;
+  text-decoration: underline;
+  background-color: lime;
 }
 
 .a-link--block,
 .a-link--header {
   color: var(--accent-text-color);
 }
-
-.a-link--inline {
-  display: inline-block;
-  padding-left: 7px;
-  text-decoration: underline;
-}
-
 
 .a-link--block:hover,
 .a-link--inline:hover {
