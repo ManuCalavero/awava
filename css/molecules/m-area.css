@@ -41,7 +41,6 @@
 }
 
 .m-area--title {
-  height: 60px;
   margin: 0 0 32px;
   font-family: var(--title-regular);
   font-size: var(--fs-l);
@@ -134,6 +133,7 @@
   }
 
   .m-area--title {
+    height: 60px;
     font-size: var(--fs-l);
     margin: 24px auto 64px;
   }
