@@ -81,11 +81,6 @@
   font-family: var(--font-bold);
 }
 
-.m-area__list-item--description {
-  color: #777;
-}
-
-
 @media (min-width: 620px) {
   /* TITLE HIGHLIGHTS MODIFIERS */
 

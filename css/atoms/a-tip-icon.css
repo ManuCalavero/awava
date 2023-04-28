@@ -5,8 +5,8 @@
   padding: 32px;
   border-radius: 35px;
   background: rgb(2,0,36);
-  color: red;
-  background: linear-gradient(-45deg, #D1FFEB 0%, #6DEEB7 100%);
+  opacity: 0.75;
+  background: linear-gradient(-5deg, #D1FFEB 0%, #6DEEB7 100%);
 }
 
 
