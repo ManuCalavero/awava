@@ -5,8 +5,8 @@
 .m-area__list {
   padding: 24px;
   border-radius: 30px;
-  background-color: var(--nuclear-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.6));
+  border: 1px solid rgba(0, 0, 0, 0.05);
   text-align: center;
 }
 
